@@ -1,0 +1,5 @@
+data/raw/
+features/
+__pycache__/
+*.pyc
+.vscode/

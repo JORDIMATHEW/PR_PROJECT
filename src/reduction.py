@@ -1,6 +1,10 @@
 """
-Dimensionality Reduction and Feature Selection Pipeline.
-Person 1 Deliverable: Custom Fisher Score selector and leakage-safe pipelines.
+Dimensionality reduction and feature selection.
+
+Provides a custom Fisher score feature selector and factory functions for
+scaler + PCA, scaler + LDA and scaler + Fisher pipelines. All are sklearn
+transformers, so they are fitted on the training fold only when used inside
+cross-validation.
 """
 
 from typing import Optional

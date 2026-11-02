@@ -6,7 +6,7 @@ from sklearn.model_selection import StratifiedKFold
 
 # Configuration
 # Path to your extracted 'seg_train' folder:
-RAW_DATA_DIR = Path(r"E:\\disk d\\3RD YEAR\\SEM 5 ACADEMICS\\PR\\PROJECT\\data\\raw\\seg_train\\seg_train")
+RAW_DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "raw" / "seg_train" / "seg_train"
 
 # Output directory automatically created inside your project:
 PROJECT_ROOT = Path(__file__).resolve().parent.parent

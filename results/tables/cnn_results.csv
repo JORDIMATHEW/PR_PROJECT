@@ -1,0 +1,2 @@
+﻿method,device,accuracy,macro_f1,acc_mean,f1_mean,runs,fit_time_s
+"SmallCNN (15 epochs, raw 64x64 RGB)",cuda,0.8764 ± 0.0097,0.8762 ± 0.0097,0.8764,0.8762,15,51.42

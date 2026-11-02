@@ -1,6 +1,13 @@
 """
-Visualization Suite for Intel Scene Classification.
-Person 1 Deliverable: Generates figures for final report and presentation slides.
+Visualisations for multi-class scene classification.
+
+Generates the report figures: sample images, HOG / LBP / Gabor illustrations,
+per-class HSV histograms, PCA and t-SNE embeddings, and the top Fisher-score
+features. Figures are saved to results/figures/.
+
+Note: the embeddings and Fisher ranking here are fitted on the whole dataset
+for illustration only. All reported accuracies come from the cross-validated
+pipelines in classifiers.py, where every fitted step sees training data only.
 """
 
 import sys

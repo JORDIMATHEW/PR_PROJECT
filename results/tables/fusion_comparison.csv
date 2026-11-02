@@ -1,0 +1,5 @@
+﻿method,accuracy,macro_f1,acc_mean,f1_mean,runs,fit_time_s
+Concatenation + SVM (early fusion),0.7845 ± 0.0158,0.7846 ± 0.0156,0.7845,0.7846,5,32.58
+Majority vote of experts,0.7673 ± 0.0091,0.7663 ± 0.0093,0.7673,0.7663,5,20.76
+Equal-weight probability fusion,0.7875 ± 0.0110,0.7865 ± 0.0112,0.7875,0.7865,5,20.7
+Skill-weighted probability fusion (proposed),0.7840 ± 0.0149,0.7828 ± 0.0151,0.784,0.7828,5,51.65

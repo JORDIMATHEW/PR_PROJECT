@@ -1,8 +1,11 @@
 """
-Feature Extraction Pipeline for Intel Scene Classification.
-Person 1 Deliverable: Generates and caches all feature representations.
-"""
+Feature extraction for multi-class scene classification.
 
+Computes colour (HSV histogram, colour moments), texture (LBP, Gabor), shape
+(HOG) and raw-pixel features for every image, and caches each set to
+features/<name>.npy. Sets that are already cached are loaded instead of
+recomputed.
+"""
 from pathlib import Path
 import numpy as np
 from scipy import stats
